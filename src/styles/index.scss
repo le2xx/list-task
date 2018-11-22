@@ -1,0 +1,76 @@
+@import 'bootstrap.min.css';
+
+.main {
+  background: url('../assets/bg.jpg') center 50% no-repeat;
+  height: 85rem;
+}
+
+.main_field {
+  background-color: rgba(55, 55, 55, 0.6);
+  border: 3px solid #ad7835;
+  box-shadow: 0 0 80px 0 rgba(0, 0, 0, .5);
+  height: 40rem;
+  margin: 15rem 10% 0;
+  overflow-y: auto;
+  padding-bottom: 5rem;
+  width: 80%;
+}
+
+.main_field ul {
+  list-style-image: url('../assets/list.png');
+  margin: 5rem 10% 5rem 8%;
+  width: 82%;
+}
+
+.main_field ul li {
+  border: 1px solid #ad7835;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 2.2rem;
+  height: 5rem;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-top: .8rem;
+}
+
+.main_btn {
+  background-color: rgba(0, 0, 0, .1);
+  border: 3px solid #ad7835;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.5rem;
+  height: 5rem;
+  margin-top: 2rem;
+  outline: none;
+  width: 25rem;
+}
+
+.popup {
+  background-color: rgba(173, 120, 53, .4);
+  border: 2px solid #000;
+  border-radius: 15px;
+  display: none;
+  height: 20rem;
+  margin: 20rem 30% 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 40%;
+  z-index: 111;
+}
+
+.popup p {
+  color: #000;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 19.9rem;
+}
+
+.popup .close {
+  box-shadow: none;
+  color: #000;
+  opacity: 1;
+  position: absolute;
+  right: 1rem;
+  top: .5rem;
+}
